@@ -1,0 +1,21 @@
+#app {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    height: 0vh;
+}
+
+#nav{
+    z-index: 10;
+}
+
+#drawer {
+    width: 240;
+    flex-shrink: 0;
+    z-index: -1;
+}
+
+
+#content {   
+    z-index: -10;
+}
